@@ -1,0 +1,26 @@
+File Log Handler:Thread 1 - DEBUG level log.
+File Log Handler:Thread 1 - WARNING level log.
+File Log Handler:Thread 1 - ERROR level log.
+File Log Handler:Thread 2 - DEBUG level log.
+File Log Handler:Thread 2 - WARNING level log.
+File Log Handler:Thread 2 - ERROR level log.
+File Log: [INFO] This is an INFO message.
+File Log: [DEBUG] This is a DEBUG message.
+File Log: [WARNING] This is a WARNING message.
+File Log: [ERROR] This is an ERROR message.
+File Log: [INFO] This is an INFO message.
+File Log: [DEBUG] This is a DEBUG message.
+File Log: [WARNING] This is a WARNING message.
+File Log: [ERROR] This is an ERROR message.
+File Log: [CRITICAL] This is a CRITICAL message.
+File Log: [CRITICAL] This is a CRITICAL message.
+File Log: [INFO] Thread 1- This is an INFO message.
+File Log: [DEBUG] Thread 1- This is a DEBUG message.
+File Log: [WARNING] Thread 1- This is a WARNING message.
+File Log: [ERROR] Thread 1- This is an ERROR message.
+File Log: [CRITICAL] Thread 1- This is a CRITICAL message.
+File Log: [INFO] Thread 2- This is an INFO message.
+File Log: [DEBUG] Thread 2- This is a DEBUG message.
+File Log: [WARNING] Thread 2- This is a WARNING message.
+File Log: [ERROR] Thread 2- This is an ERROR message.
+File Log: [CRITICAL] Thread 2- This is a CRITICAL message.

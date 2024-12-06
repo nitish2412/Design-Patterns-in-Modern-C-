@@ -55,10 +55,12 @@ void ThreadBar(){
 
 int main(){
 
-    /*Singleton *singleton = Singleton::getInstance();
+    Singleton *singleton = Singleton::getInstance();
     singleton->someOperation();
     Singleton *singleton1 = Singleton::getInstance();
-    singleton1->someOperation();*/
+    singleton1->someOperation();
+    //Singleton s3 =*singleton1;
+    //s3->someOperation();
 
 
     thread th1(ThreadFoo);

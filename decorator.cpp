@@ -9,26 +9,6 @@ class Beverage{
 
 };
 
-class CondimentDecorator:public Beverage{
-
-    protected:
-        Beverage *beverage;
-    public:
-        CondimentDecorator(Beverage *bev):beverage(bev)
-        {}
-
-        string get_description() override{
-
-            return beverage->get_description();
-        }
-
-        double cost() override{
-            return beverage->cost();
-        }
-
-
-};
-
 class Expresso:public Beverage{
 
     public:
@@ -81,6 +61,27 @@ class Decaf:public Beverage{
             return 80.0;
         }
 };
+class CondimentDecorator:public Beverage{
+
+    protected:
+        Beverage *beverage;
+    public:
+        CondimentDecorator(Beverage *bev):beverage(bev)
+        {}
+
+        string get_description() override{
+
+            return beverage->get_description();
+        }
+
+        double cost() override{
+            return beverage->cost();
+        }
+
+
+};
+
+
 
 class Mocha:public CondimentDecorator{
 
